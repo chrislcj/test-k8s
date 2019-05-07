@@ -5,4 +5,4 @@
       service:
         name: firewalld
         state: stopped
-        enabled: false
+        enabled: False
