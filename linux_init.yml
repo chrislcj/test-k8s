@@ -1,4 +1,4 @@
-- name: Hello World Sample
+- name: Linux_init_01
   hosts: all
   tasks:
     - name: stop and disable firewalld
