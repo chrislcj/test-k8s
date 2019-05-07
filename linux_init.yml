@@ -1,7 +1,6 @@
----
-- tasks:
-  - name: stop and disable firewalld
-    service:
-      name: firewalld
-      state: stopped
-      enabled: false
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
